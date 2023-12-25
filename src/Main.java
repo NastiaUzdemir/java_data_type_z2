@@ -13,8 +13,7 @@ public class Main {
             System.out.println("На счёт клиента начислено " + bonus + " бонусных рублей");
             int finalCount = bonus + sum + initCount;
             System.out.println("Счёт клиента после пополнения: " + finalCount + " р.");
-        }
-        else {
+        } else {
             System.out.println("На счёт клиента не начисленно бонусов.");
             int finalCount = sum + initCount;
             System.out.println("Счёт клиента после пополнения: " + finalCount + " р.");
